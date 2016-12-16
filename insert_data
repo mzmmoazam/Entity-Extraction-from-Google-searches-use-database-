@@ -1,5 +1,5 @@
 import sqlite3
-conn = sqlite3.connect('new_test.db')
+conn = sqlite3.connect('database name')
 c=conn.cursor()
 f=open("E:\extract nouns and verbs from google search items/Albert Camus.json")
 
